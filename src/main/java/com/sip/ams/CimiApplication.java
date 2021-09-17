@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class CimiApplication extends SpringBootServletInitializer{
+public class CimiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CimiApplication.class, args);
